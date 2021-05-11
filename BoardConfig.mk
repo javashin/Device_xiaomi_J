@@ -70,6 +70,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_juice
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
