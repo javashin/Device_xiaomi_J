@@ -133,9 +133,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/powerhint.json
 
--include $(LOCAL_PATH)/system_prop.mk
--include $(LOCAL_PATH)/product_prop.mk
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
